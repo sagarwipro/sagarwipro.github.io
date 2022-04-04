@@ -3,7 +3,7 @@ player.addEventListener('click', VideoPlay);
 
 function VideoPlay() {
 	document.getElementById("playerdiv").style.display = "block";
-	document.getElementById("player").src="media/RESTDemo.mp4";
+	document.getElementById("player").src="media/RESTdemo.mp4";
 	document.getElementById("player").play();
 	document.getElementById("close").style.display="block";
   document.getElementById("playButton").style.display="none";
