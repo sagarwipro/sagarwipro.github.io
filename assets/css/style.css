@@ -207,6 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 120%;
   height: 110vh;
+  object-fit: fill;
   background: url("../img/hero-bg.jpeg") top center;
   background-repeat: no-repeat;
 }
