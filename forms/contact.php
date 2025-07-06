@@ -48,7 +48,6 @@
 //     die('Invalid request method.');
 // }
 
-<?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Set your receiving email address here
   $to = "sagarwipro143@gmail.com";
@@ -84,6 +83,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   http_response_code(403);
   echo "There was a problem with your submission.";
 }
-?>
 
 ?>
